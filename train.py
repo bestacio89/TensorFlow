@@ -1,5 +1,5 @@
 # Import necessary modules and configurations
-from tensorflow.keras.models import Sequential
+from keras.api.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 from Config.hyperparameters import batch_size, epochs
