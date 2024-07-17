@@ -1,11 +1,13 @@
-README: Evaluation Script (evaluate.py)
-This README provides a placeholder for the evaluation script (evaluate.py) in your TensorFlow-based deep learning project. The script is designed to load a trained neural network model and evaluate its performance using test or validation data.
 
-Evaluation Script Structure
-The evaluate.py script is structured as follows:
+# Placeholder README: Evaluation Script (`evaluate.py`)
 
-python
-Copiar código
+This README provides a placeholder for the evaluation script (`evaluate.py`) in your TensorFlow-based deep learning project. The script is designed to load a trained neural network model and evaluate its performance using test or validation data.
+
+## Evaluation Script Structure
+
+The `evaluate.py` script is structured as follows:
+
+```python
 # Import necessary modules and configurations
 from tensorflow.keras.models import load_model
 from config.paths import saved_models_dir
@@ -26,5 +28,10 @@ evaluation = model.evaluate(
 )
 
 print("Evaluation Metrics:", evaluation)
-Usage
-Replace the placeholders (load_model, load_data, etc.) with actual functions and configurations specific to your project. This script serves as a template for evaluating the performance of your trained TensorFlow models using saved models and evaluation data.
+```
+
+### Usage
+
+Replace the placeholders (`load_model`, `load_data`, etc.) with actual functions and configurations specific to your project. This script serves as a template for evaluating the performance of your trained TensorFlow models using saved models and evaluation data.
+
+
